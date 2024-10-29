@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+---
+title: "cdmb"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{cdmb}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup}
+library(cdmb)
+```
+
+# 
+
+General description
+
+Function 1
+
+Function 2
+
+Function 3
+
+Function 4
+
+**`character_counts1()`**
+
+The function character_counts1() takes a character string, splits it into unique characters, counts their occurrences, and returns a bar plot that visualizes these character counts.
+
+\### Example 1: Basic Usage with a Simple Sequence
+The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
+
+```{r}
+
+# Example with a simple repeated character sequence
+character_counts1("AABBCCDD")
+```
+
+Use cases for the package
