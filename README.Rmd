@@ -67,19 +67,6 @@ print(rna_seq)
 all_codons("ATGCGATACAC", start = 1)
 ```
 
-
-Function 4
-
-#### **`character_counts1()`**
-
--   The function takes an input string
-
--   It splits the string into individual characters and extracts unique characters, ignoring duplicate occurrences.
-
--   For each unique character, the function calculates how many times it appears in the original string.
-
--   It stores the character counts in a data frame with columns for character names and their respective counts.
-
 **concat_codons**
 
 This function concatenates and retrieves specified elements from codon_table based on provided indices.
@@ -96,16 +83,22 @@ codons \<- c(1, 3, 4) result \<- concat_codons(codons) print(result) \# Expected
 concat_codons(c(1, 3, 4))
 ```
 
-Function 5 **`character_counts1()`**
+#### character_counts1()
 
+-   The function takes an input string
 
+-   It splits the string into individual characters and extracts unique characters, ignoring duplicate occurrences.
+
+-   For each unique character, the function calculates how many times it appears in the original string.
+
+-   It stores the character counts in a data frame with columns for character names and their respective counts.
+
+```{=html}
+<!-- -->
+```
 -   It returns a bar plot where each unique character is represented on the x-axis and its count on the y-axis.
 
-
 Example: Basic Usage with a Simple Sequence The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
-
-\### Example 1: Basic Usage with a Simple Sequence The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
-
 
 ```{r}
 
@@ -115,4 +108,4 @@ character_counts1("AABBCCDD")
 
 Use cases for the package
 
-This package can be used for analysing DNA sequences.
+This package can be used for analyzing DNA sequences.
