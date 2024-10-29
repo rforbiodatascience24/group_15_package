@@ -22,16 +22,23 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-
 ```{r setup}
 library(cdmb)
 ```
 
 # 
 
-General description
+# General description
 
-Function 1
+The aim of this R package is to replicate the central dogma of molecular biology
+
+**random_seq ()**
+
+Generates a random DNA sequence of a specified length.
+
+It takes a single argument, len, which determines the length of the sequence to be created.
+
+The function randomly samples from the four DNA nucleotides ("A", "T", "G", "C") with replacement to ensure each position in the sequence is independent of the others.
 
 Function 2
 
