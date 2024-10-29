@@ -67,8 +67,6 @@ print(rna_seq)
 all_codons("ATGCGATACAC", start = 1)
 ```
 
-Function 4
-
 **concat_codons**
 
 This function concatenates and retrieves specified elements from codon_table based on provided indices.
@@ -80,6 +78,7 @@ concat_codons(c(?, ?, ?))
 #### Example usage
 
 codons \<- c(1, 3, 4) result \<- concat_codons(codons) print(result) \# Expected output: "AGC"
+
 ```{r}
 concat_codons(c(1, 3, 4))
 ```
