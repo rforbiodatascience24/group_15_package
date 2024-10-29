@@ -57,15 +57,15 @@ print(rna_seq)
 
 **all_codons**
 
-- The function returns all the codons found in the provided DNA/RNA sequence.
-- For function to be executed, user must provide the sequence (RNA or DNA). The `start` argument is an optional offset specifying where in the sequence to start grouping into codons, with a default of 1.
-- The output of the sequence is a character vector of the codons found in the provided sequence.
-- If the length of the sequence is not a multiple of 3, only the full codons will be returned (the function skips any remaining characters at the end that don’t complete a codon).
-- Example usage:
+-   The function returns all the codons found in the provided DNA/RNA sequence.
+-   For function to be executed, user must provide the sequence (RNA or DNA). The `start` argument is an optional offset specifying where in the sequence to start grouping into codons, with a default of 1.
+-   The output of the sequence is a character vector of the codons found in the provided sequence.
+-   If the length of the sequence is not a multiple of 3, only the full codons will be returned (the function skips any remaining characters at the end that don’t complete a codon).
+-   Example usage:
+
 ```{r}
 all_codons("ATGCGATACAC", start = 1)
 ```
-
 
 Function 4
 
@@ -80,14 +80,15 @@ concat_codons(c(?, ?, ?))
 #### Example usage
 
 codons \<- c(1, 3, 4) result \<- concat_codons(codons) print(result) \# Expected output: "AGC"
+```{r}
+concat_codons(c(1, 3, 4))
+```
 
-Function 5
-**`character_counts1()`**
+Function 5 **`character_counts1()`**
 
 The function character_counts1() takes a character string, splits it into unique characters, counts their occurrences, and returns a bar plot that visualizes these character counts.
 
-\### Example 1: Basic Usage with a Simple Sequence
-The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
+\### Example 1: Basic Usage with a Simple Sequence The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
 
 ```{r}
 
