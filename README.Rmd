@@ -93,9 +93,6 @@ concat_codons(c(1, 3, 4))
 
 -   It stores the character counts in a data frame with columns for character names and their respective counts.
 
-```{=html}
-<!-- -->
-```
 -   It returns a bar plot where each unique character is represented on the x-axis and its count on the y-axis.
 
 Example: Basic Usage with a Simple Sequence The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
