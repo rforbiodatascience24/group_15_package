@@ -33,13 +33,11 @@ Depends:
     R (>= 2.10)
 RoxygenNote: 7.2.3
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-
 Imports: 
     ggplot2 (>= 3.4.3),
     stringr (>= 1.5.0)
-
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
+VignetteBuilder: knitr
