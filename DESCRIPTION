@@ -1,0 +1,31 @@
+Package: cdmb
+Type: Package
+Title: Central Dogma of Molecular Biology - Group 15
+Version: 0.1.0
+Authors@R:
+  c(person(given = "Paula",
+           family = "Gómez-Plana",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s233165@dtu.dk"), 
+    person(given = "Maria Gabriela",
+           family = "Frascella",
+           role = "aut",
+           email = "s233113@dtu.dk"),
+    person(given = "Alicia",
+           family = "Llorente",
+           role = "aut",
+           email = "s233658@dtu.dk"),
+    person(given = "Ona",
+           family = "Saulianskaite",
+           role = "aut",
+           email = "s232958@dtu.dk"),
+    person(given = "José Dinis",
+           family = "Coehlo da Silva",
+           role = "aut",
+           email = "s212484@dtu.dk"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
