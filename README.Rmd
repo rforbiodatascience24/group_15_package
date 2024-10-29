@@ -57,24 +57,31 @@ print(rna_seq)
 
 **all_codons**
 
-- The function returns all the codons found in the provided DNA/RNA sequence.
-- For function to be executed, user must provide the sequence (RNA or DNA). The `start` argument is an optional offset specifying where in the sequence to start grouping into codons, with a default of 1.
-- The output of the sequence is a character vector of the codons found in the provided sequence.
-- If the length of the sequence is not a multiple of 3, only the full codons will be returned (the function skips any remaining characters at the end that don’t complete a codon).
-- Example usage:
+-   The function returns all the codons found in the provided DNA/RNA sequence.
+-   For function to be executed, user must provide the sequence (RNA or DNA). The `start` argument is an optional offset specifying where in the sequence to start grouping into codons, with a default of 1.
+-   The output of the sequence is a character vector of the codons found in the provided sequence.
+-   If the length of the sequence is not a multiple of 3, only the full codons will be returned (the function skips any remaining characters at the end that don’t complete a codon).
+-   Example usage:
+
 ```{r}
 all_codons("ATGCGATACAC", start = 1)
 ```
 
-
 Function 4
 
-**`character_counts1()`**
+#### **`character_counts1()`**
 
-The function character_counts1() takes a character string, splits it into unique characters, counts their occurrences, and returns a bar plot that visualizes these character counts.
+-   The function takes an input string
 
-\### Example 1: Basic Usage with a Simple Sequence
-The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
+-   It splits the string into individual characters and extracts unique characters, ignoring duplicate occurrences.
+
+-   For each unique character, the function calculates how many times it appears in the original string.
+
+-   It stores the character counts in a data frame with columns for character names and their respective counts.
+
+-   It returns a bar plot where each unique character is represented on the x-axis and its count on the y-axis.
+
+Example: Basic Usage with a Simple Sequence The example below demonstrates how to use \`character_counts1()\` on a simple string with repeated characters:
 
 ```{r}
 
