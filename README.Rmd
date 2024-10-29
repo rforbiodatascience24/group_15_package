@@ -45,7 +45,15 @@ random_seq(7)
 
 ```
 
-Function 2
+**dna_to_rna ()**
+
+dna_to_rna takes an input sequence of DNA and transforms it into RNA by substituting the T by U
+
+```{r}
+dna_seq <-"ATG"
+rna_seq <- dna_to_rna(dna_seq)
+print(rna_seq)
+```
 
 Function 3
 
