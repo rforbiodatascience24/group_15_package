@@ -40,6 +40,11 @@ It takes a single argument, len, which determines the length of the sequence to 
 
 The function randomly samples from the four DNA nucleotides ("A", "T", "G", "C") with replacement to ensure each position in the sequence is independent of the others.
 
+```{r}
+random_seq(7)
+
+```
+
 Function 2
 
 Function 3
