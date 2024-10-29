@@ -37,6 +37,18 @@ Function 2
 
 Function 3
 
+# all_codons function
+
+- The function returns all the codons found in the provided DNA/RNA sequence.
+- For function to be executed, user must provide the sequence (RNA or DNA). The `start` argument is an optional offset specifying where in the sequence to start grouping into codons, with a default of 1.
+- The output of the sequence is a character vector of the codons found in the provided sequence.
+- If the length of the sequence is not a multiple of 3, only the full codons will be returned (the function skips any remaining characters at the end that don’t complete a codon).
+- Example usage:
+```{r}
+all_codons("ATGCGATACAC", start = 1)
+```
+
+
 Function 4
 
 Function 5
