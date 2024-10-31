@@ -4,8 +4,6 @@
 #'
 #' @return A single concatenated string formed by the elements at specified indices in `codon_table`.
 #' @export
-#'
-#' @examples
 concat_codons <- function(codons){
   sequence <- paste0(codon_table[codons], collapse = "")
   return(sequence)
