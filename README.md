@@ -7,7 +7,9 @@ cdmb
 library(cdmb)
 ```
 
-# 
+# Link to Group 15 Github repository:
+
+<https://github.com/rforbiodatascience24/group_15_package>
 
 # General description
 
@@ -27,7 +29,7 @@ independent of the others.
 
 ``` r
 cdmb::random_seq(7)
-#> [1] "AGCGGAT"
+#> [1] "TCCACCT"
 ```
 
 **dna_to_rna ()**
@@ -103,7 +105,7 @@ repeated characters:
 character_counts1("AABBCCDD")
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.svg" width="100%" />
+<img src="man/figures/README-unnamed-chunk-6-1.svg" width="100%" />
 
 Use cases for the package
 
